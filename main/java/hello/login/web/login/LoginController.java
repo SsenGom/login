@@ -2,10 +2,9 @@ package hello.login.web.login;
 
 import hello.login.domain.login.LoginService;
 import hello.login.domain.member.Member;
-import hello.login.web.session.SessionConst;
+import hello.login.web.SessionConst;
 import hello.login.web.session.SessionManager;
 import lombok.RequiredArgsConstructor;
-import lombok.Value;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
